@@ -143,13 +143,14 @@ body::-webkit-scrollbar {
 /* ==================================== chiffons */
 
 .chiffons {
+  position: relative;
   width: 160px; height: 300px;
 }
 
 #cream {
   position: absolute;
-  width: 160px; height: 24px;
-  top: 33%;
+  width: 170px; height: 24px;
+  top: 33%; left: -3%;
   background:#fff;
   border-radius: 16px 16px 10px 10px;
   animation: cream 1s;
